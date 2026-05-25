@@ -4,6 +4,7 @@
     box-sizing:border-box;
 }
 body{
+    margin:0;
 
     overflow:hidden;
     height:100vh;
@@ -136,6 +137,7 @@ body{
     z-index:5;
 
     animation:float 4s ease-in-out infinite;
+    transform:scale(0.9);
 }
 
 @keyframes float{
@@ -418,5 +420,35 @@ body{
 
         width:75px;
         height:75px;
+    }
+}
+/* ==========================
+   RESPONSIVE FIX
+========================== */
+
+@media screen and (min-width:1400px){
+
+    .card{
+        transform:scale(0.8);
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .card{
+
+        width:90%;
+
+        padding:25px 20px;
+
+        transform:scale(1);
+    }
+
+    .eid{
+        font-size:2.5rem;
+    }
+
+    .subtitle{
+        font-size:1rem;
     }
 }
