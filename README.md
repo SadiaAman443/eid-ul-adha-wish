@@ -14,7 +14,7 @@ A beautiful aesthetic Eid-ul-Adha wishing website with:
 
 # 📸 Preview
 
-![Eid Mubarak Website](Screenshot 2026-05-25 214141.png)
+![Eid Mubarak Website](webScreenshot.png)
 
 Beautiful Eid Mubarak wish webpage with Islamic aesthetic vibes.
 
